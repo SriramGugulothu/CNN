@@ -176,7 +176,7 @@ def parse_arguments():
 
     parser.add_argument('-ag', '--aug', type= str, default='no', choices = ['yes','no'],help='Augumentation choices')
     
-    parser.add_argument('-s', '--strategy', type= int, default='1', choices = [0,1,2],help='Choice of strategies')
+    parser.add_argument('-s', '--strategy', type= int, default=1, choices = [0,1,2],help='Choice of strategies')
 
     return parser.parse_args()
 
