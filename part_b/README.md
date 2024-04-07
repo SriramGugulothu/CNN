@@ -22,6 +22,21 @@ This repository belongs to Assignment_2
   - This function returns the model by freezing all but not last layer after adding dense layer before the output layer.
     **GPU integration**
     - I have integrated the GPU using torch.device() fuction.
-      **train_fun**
-      - This 
+    **Training**
+      - I have used the funciton **train_fun(batchSize,num_epochs,learning_rate,aug,strategy,NUM_OF_CLASSES)** for training. batch size (batchSize),epochs (num_epochs),learning rate (learning_rate),augumentation (aug),strategy ,NUM_OF_CLASSES = 10
+      - Here strategy = 0 ,model by freezes all but not last layer
+      - strategy =1, model by freezes first k layers only
+      - strategy = 2, model by freezing all but not last layer after adding dense layer
+      This function uses the adam as optimizer and fill the training accuracy and validation accuracy along with losses in wandb. It uses the check_accuracy function to get the accracies and losses.
+**chek_accuracy(loader,model,criterion,batchSize)**
+- this function calculates the accuracies and losses of the train and validation data depending on the train loader or validation loader passed to it.
+  
+**trainPartB.py**
+  -- I have used the parse_arguments from parse library to execute thie trainPartB.py file.
+  -- It can be execute by appling !python trainPartB.py --(parameters that are supported as choices in my trainB.py file)
+  -- (**-- parameterName**) command to test with other values than default values can be used.
+ **dl_assignment_2_partb.ipynb.**
+  -- In place of parsers I have integrated with wandb parameters and ran the sweeps in ipynb file.
+  -- You use your wandb api key to visualize the accuracies aand losses in wandb.
+
 
