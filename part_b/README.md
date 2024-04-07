@@ -7,6 +7,7 @@ This repository belongs to Assignment_2
 # wandb integration #
 - I have integrated wandb to visualize the results
 # Data processing #
+- loaded the data from nature_12K.zip file
 - I have used the tronsforms class to resize and augument the data. **dataFun()** function return the appropiate data loader either augmented or normal data. Here I have split the data into 80% train and 20% validation data.
   **RESNET50(NUM_OF_CLASSES)**
   - NUM_OF_CLASSES = 10 (for nature_12k data)
@@ -37,6 +38,6 @@ This repository belongs to Assignment_2
   -- (**-- parameterName**) command to test with other values than default values can be used.
  **dl_assignment_2_partb.ipynb.**
   -- In place of parsers I have integrated with wandb parameters and ran the sweeps in ipynb file.
-  -- You use your wandb api key to visualize the accuracies aand losses in wandb.
+  -- You use your wandb api key to visualize the accuracies aand losses in wandb by running the sweeps.
 
 
