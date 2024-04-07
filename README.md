@@ -34,6 +34,6 @@ I have integrated wandb with projectname = 'DL_assignment_2'
   **dl_assignment_2.ipynb.**
   -- sorry for the mistake I did not mention the part name in the file name.
   -- In place of parsers I have integrated with wandb parameters and ran the sweeps in ipynb file.
-  --  You can use wandb activation key to visualize the accuarcies.
+  --  You can run by integratin your wandb account by activation key to visualize the accuarcies.
 
 
