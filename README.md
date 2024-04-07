@@ -20,11 +20,14 @@ I have integrated wandb with projectname = 'DL_assignment_2'
    - I have used cross entropy loss values to calculate the train loss and validation loss.
    - After each batch size I update the paramets using optimizer.step()
    -  **train_fun()** calls the **check_accuracy()** function to calculate the validation accuracies and train accuracies along with cross entropy loss at each epoch. They are posted into wandb.
-
+   -  
+**chek_accuracy(loader,model,criterion,batchSize)**
+- this function calculates the accuracies and losses of the train and validation data depending on the train loader or validation loader passed to it
+  
    **trainPartA.py**
 
-  -- I have used the parse_arguments from parse library to execute thie trainPartA.py file.
-  -- It can be execute by appling !python trainPartA.py --(parameters that are supported as choices in my train.py file)
+  -- I have used the parse_arguments from parser library to execute thie trainPartA.py file.
+  -- It can be executed by appling !python trainPartA.py --(parameters that are supported as choices in my train.py file)
   -- (**-- parameterName**) command to test with other values than default values can be used.
   
   **dl_assignment_2.ipynb.**
