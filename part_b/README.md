@@ -1,9 +1,9 @@
-# Assignment_2
-This repository belongs to Assignment_2
+# DL_Project_2
+This repository belongs to Deep Learning Project 2
  **PART - B** 
  # Libraries
 -I have imported all the libraries.
--I have integrated wandb with projectname = 'DL_assignment_2_B'
+-I have integrated wandb with projectname = 'DL_Project_2'
 # wandb integration #
 - I have integrated wandb to visualize the results
 # Data processing #
@@ -36,7 +36,7 @@ This repository belongs to Assignment_2
   -- I have used the parse_arguments from parse library to execute thie trainPartB.py file.
   -- It can be execute by appling !python trainPartB.py --(parameters that are supported as choices in my trainB.py file)
   -- (**-- parameterName**) command to test with other values than default values can be used.
- **dl_assignment_2_partb.ipynb.**
+ **DL_Project_2.ipynb.**
   -- In place of parsers I have integrated with wandb parameters and ran the sweeps in ipynb file.
   -- You use your wandb api key to visualize the accuracies aand losses in wandb by running the sweeps.
 
