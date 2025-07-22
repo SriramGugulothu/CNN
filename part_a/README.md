@@ -1,10 +1,10 @@
-# Assignment_2
-This repository belongs to Assignment_2
+# Convolution Neural Network part -1 
+This repository belongs to Deep Learning course project.
  **PART - A** 
  # Libraries
 I have imported all the libraries.
 # wandb
-I have integrated wandb with projectname = 'DL_assignment_2'
+I have integrated wandb with projectname = 'DL_Project_2'
 # CNN class
 -I have uesd the CNN inbuilt class provided by the torch library
 -Initial shapes of the images are (256,256,3) 
@@ -31,7 +31,7 @@ I have integrated wandb with projectname = 'DL_assignment_2'
   -- It can be executed by appling !python trainPartA.py --(parameters that are supported as choices in my trainPartA.py file)
   -- (**-- parameterName**) command to test with other values than default values can be used.
   
-  **dl_assignment_2.ipynb.**
+  **dl_project_2.ipynb.**
   -- sorry for the mistake I did not mention the part name in the file name.
   -- In place of parsers I have integrated with wandb parameters and ran the sweeps in ipynb file.
   --  You can run by integratin your wandb account by activation key to visualize the accuarcies.
